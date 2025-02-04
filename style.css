@@ -1,0 +1,177 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300";
+
+header {
+  font-family: "Comic Neue", serif;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff9c4;
+  color: Black;
+  font-size: 25px;
+
+  border: solid 10px black;
+}
+
+.busHeader {
+  border: solid 10px black;
+  object-fit: contain;
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://images.template.net/350857/Blue-Water-Texture-Background-edit-online-2.jpg");
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border: solid 10px black;
+}
+
+.row {
+  margin: 50px;
+  padding: 20px;
+  border: solid 10px black;
+  text-align: center;
+  float: right;
+}
+/* FIRST COLUMN */
+.columnA {
+  padding: 20px;
+  height: 150px;
+  display: flex;
+}
+.columnA a {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  background: #ffd600;
+  margin: 7px 0;
+  cursor: crosshair;
+  border: 1px solid black;
+}
+.columnA a p {
+  display: block;
+  text-align: center;
+  transition: ease 0.35s;
+  opacity: 1;
+}
+.columnA a:hover p {
+  opacity: 0;
+}
+.columnA a span {
+  dispay: block;
+  text-align: center;
+  transition: ease 0.35s;
+  opacity: 0;
+}
+.columnA a:hover span {
+  opacity: 1;
+}
+
+/* SECOND COLUMN */
+.columnB {
+  padding: 20px;
+  height: 150px;
+  display: flex;
+}
+.columnB a {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  background: #ffd600;
+  margin: 7px 0;
+  cursor: crosshair;
+  border: 1px solid black;
+}
+.columnB a p {
+  display: block;
+  text-align: center;
+  transition: ease 0.35s;
+  opacity: 1;
+}
+.columnB a:hover p {
+  opacity: 0;
+}
+.columnB a span {
+  dispay: block;
+  text-align: center;
+  transition: ease 0.35s;
+  opacity: 0;
+}
+.columnB a:hover span {
+  opacity: 1;
+}
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+} */
+
+/* .myDisplays > div {
+  height: 45px;
+  width: 45px;
+  padding: 100px;
+  margin: 45px;
+  background-color: #673AB7;
+  border: 10px;
+} */
